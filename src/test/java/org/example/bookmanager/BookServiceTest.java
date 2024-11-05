@@ -1,6 +1,5 @@
 package org.example.bookmanager;
 
-import lombok.RequiredArgsConstructor;
 import org.example.bookmanager.entity.Book;
 import org.example.bookmanager.exception.BookNotFoundException;
 import org.example.bookmanager.repository.BookRepository;
@@ -12,7 +11,6 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 
 import java.time.LocalDate;
